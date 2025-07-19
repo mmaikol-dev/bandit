@@ -49,10 +49,10 @@ export default function App() {
           <div className="w-full max-w-md">
             <div className="text-center mb-8">
               <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">
-                Security Management System
+                Banditry Management System KE
               </h1>
               <p className="text-gray-600 text-sm sm:text-base">
-                Secure incident reporting and peace building platform
+                Secure Bandit reporting and peace building platform
               </p>
             </div>
             <SignInForm />
