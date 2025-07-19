@@ -61,9 +61,9 @@ export function Dashboard() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">Security Dashboard</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">Bandit Management Dashboard</h1>
           <p className="text-gray-600 text-sm sm:text-base">
-            Real-time security monitoring and analytics
+            Real-time Bandit monitoring and analytics
           </p>
         </div>
         
@@ -261,6 +261,7 @@ export function Dashboard() {
           <h3 className="text-lg font-semibold text-gray-900 mb-4">Response Performance</h3>
           <div className="text-center">
             <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">
+              
               {analytics.summary.averageResponseTime}h
             </div>
             <p className="text-gray-600">Average Response Time</p>
